@@ -45,7 +45,9 @@ variable_list = [first, second, third, last]
 # variable_list.remove(first) #* same as above
 # print(variable_list)
 #* pop on the other hand, will just remove the last item in the list. for example:
+#* placing a number within the pop brackets will remove an item at a position equivalent to the number
 # variable_list.pop()
+# variable_list.pop(2)
 # print(variable_list)
 #* after popping you could get the pop item by defining it as a variable
 # popped_item = variable_list.pop()
